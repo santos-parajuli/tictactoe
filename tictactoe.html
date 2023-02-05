@@ -1,0 +1,94 @@
+<!-- Santosh Parajuli 8826906 -->
+<!doctype html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+    <title>Play | TicTacToe</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./JS/tictactoe.js"> </script>
+    <script src="./JS/script.js"> </script>
+</head>
+
+<body>
+    <!-- Responsive Navigation Bar -->
+    <nav class="navWrapper">
+        <div class="navBar">
+            <div class="logo">
+                <span>TicTacToe</span>
+            </div>
+            <div class="hamburger">
+                <img id="toggleMenu" src="./images/Hamburger.png" alt="Menu" />
+            </div>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="selected" href="./tictactoe.html">
+                        Play
+                    </a>
+                </li>
+                <li>
+                    <a href="./facts.html">
+                        Facts
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobileLinks">
+            <a href="./index.html">
+                <div>Home</div>
+            </a>
+            <a href="./tictactoe.html">
+                <div class="selected">Play</div>
+            </a>
+            <a href="./facts.html">
+                <div>Facts</div>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <div id="container">
+            <div id="resizable">
+                <h1><a href="#" title="Let's Play TicTactToe">Tic Tac Toe</a></h1>
+                
+                <div class="message">
+                </div>
+                <div class="turn">
+                </div>
+                <div id="progressbar">
+                </div>
+                <table id="table">
+                    <tr>
+                        <td class="box1"></td>
+                        <td class="box2"></td>
+                        <td class="box3"></td>
+                    </tr>
+                    <tr>
+                        <td class="box4"></td>
+                        <td class="box5"></td>
+                        <td class="box6"></td>
+                    </tr>
+                    <tr>
+                        <td class="box7"></td>
+                        <td class="box8"></td>
+                        <td class="box9"></td>
+                    </tr>
+                </table>
+                <br />
+                <input class="reset" type="reset" value="Reset">
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
